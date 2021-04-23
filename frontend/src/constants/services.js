@@ -10,18 +10,18 @@ export default [
       />
     ),
     title: "Webbutveckling",
-    text: `Trivs att jobba med webbutveckling och allt vad det innebär.`,
+    text: `Det är kul att utman sig själv lite hela tiden.`,
   },
   {
     id: 2,
     icon: <FaCode style={{ fontSize: "2rem", color: "purple" }} />,
     title: ".NET",
-    text: `Kan tänka mig att jobba som backend-utvecklare i .NET.`,
+    text: `Kunskap som kommer väl till pass eftersom .NET är så vida använt.`,
   },
   {
     id: 3,
     icon: <FaVuejs style={{ fontSize: "2rem", color: "#41B883" }} />,
     title: "Frontend",
-    text: `Målet är att bli fullstack-utvecklare men påvägen dit jobbar jag gärna som frontend-utvecklare.`,
+    text: `Med erfarenhet av Vue.js och Gatsby.js så blir frontend-utvecklingen mer och mer gedigen varje dag.`,
   },
 ]

@@ -21,8 +21,8 @@ export default ({ data }) => {
       <Intro />
       <Services />
       <Jobs />
-      <Projects projects={projects} title="Aktuella projekt" showLink />
-      <Blogs blogs={blogs} title="Senaste artiklar" showLink />
+      <Projects projects={projects} title="Pågående projekt" showLink />
+      <Blogs blogs={blogs} title="Senaste bloggar" showLink />
     </Layout>
   )
 }

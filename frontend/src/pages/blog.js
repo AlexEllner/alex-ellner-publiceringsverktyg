@@ -14,7 +14,7 @@ const Blog = ({
   return (
     <Layout>
       <SEO title="Blogg" />
-      <Blogs blogs={blogs} title="Alla bloggartiklar" />
+      <Blogs blogs={blogs} title="Alla bloggar" />
     </Layout>
   )
 }
