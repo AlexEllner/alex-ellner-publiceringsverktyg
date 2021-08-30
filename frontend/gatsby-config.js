@@ -7,11 +7,11 @@
 module.exports = {
   siteMetadata: {
     title: "Alex Ellner Portfolio",
-    description: "Portfolio site",
+    description: "Portfolio Site",
     author: "Alex Ellner",
     twitterUsername: "@john_smilga",
     image: "/twitter-img.png",
-    siteUrl: "https://hardcore-lichterman-b47b21.netlify.app",
+    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -30,26 +30,26 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
-        contentTypes: [`jobs`, `projects`, `blogs`],
+        //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        // contentTypes: [],
+        contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [],
       },
     },
-    {
-      resolve: `gatsby-plugin-webfonts`,
-      options: {
-        fonts: {
-          google: [
-            {
-              family: "Roboto",
-              variants: ["400", "700"],
-            },
-            { family: "Open Sans" },
-          ],
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-webfonts`,
+    //   options: {
+    //     fonts: {
+    //       google: [
+    //         {
+    //           family: "Roboto",
+    //           variants: ["400", "700"],
+    //         },
+    //         { family: "Open Sans" },
+    //       ],
+    //     },
+    //   },
+    // },
   ],
 }

@@ -2,12 +2,15 @@
   "kind": "collectionType",
   "collectionName": "jobs",
   "info": {
-    "name": "Job"
+    "name": "job",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "company": {
       "type": "string",

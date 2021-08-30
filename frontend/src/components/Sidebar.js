@@ -3,7 +3,7 @@ import Links from "../constants/links"
 import SocialLinks from "../constants/socialLinks"
 import { FaTimes } from "react-icons/fa"
 const Sidebar = () => {
-  return <aside></aside>
+  return <h2>sidebar component</h2>
 }
 
 export default Sidebar

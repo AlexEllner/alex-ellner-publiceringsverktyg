@@ -6,8 +6,10 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
@@ -18,15 +20,16 @@
       "required": true
     },
     "image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "slug": {
       "type": "uid",
@@ -45,7 +48,7 @@
       "required": true
     },
     "description": {
-      "type": "text",
+      "type": "string",
       "required": true
     },
     "date": {

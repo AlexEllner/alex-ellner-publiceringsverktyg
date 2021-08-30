@@ -2,13 +2,12 @@
   "collectionName": "components_description_job_descriptions",
   "info": {
     "name": "job_description",
-    "icon": "apple-alt"
+    "icon": "clipboard-list"
   },
   "options": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }
