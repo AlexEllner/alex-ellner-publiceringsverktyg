@@ -1,6 +1,6 @@
 # Gatsby portfolio
 
-This portfolio is written in gatsby with styled components and the headless CMS, Strapi.
+This portfolio is written in Gatsby with styled components and the headless CMS, Strapi.
 
 ## Install node js
 
@@ -18,7 +18,7 @@ npm install -g gatsby-cli
 ## Clone the repo with Git Bash
 
 ```bash
-git clone https://github.com/lucas-holm/lucas-holm-publiceringsverktyg.git
+git clone https://github.com/AlexEllner/publiceringsverktyg-alex-ellner.git
 ```
 
 ## Install dependencies
@@ -26,7 +26,7 @@ git clone https://github.com/lucas-holm/lucas-holm-publiceringsverktyg.git
 Install dependencies in both projects, frontend and backend.
 
 ```bash
-cd lucas-holm-publiceringsverktyg
+cd alex-ellner-publiceringsverktyg
 cd frontend
 npm install
 
@@ -37,7 +37,7 @@ npm install
 ## Change directories to the site folder
 
 ```bash
-cd lucas-holm-publiceringsverktyg
+cd alex-ellner-publiceringsverktyg
 ```
 
 ## To open VScode and edit the code
