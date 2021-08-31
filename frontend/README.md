@@ -27,7 +27,6 @@ const Component = () => {
         // contentTypes: [`jobs`, `projects`, `blogs`, ],
         //singleTypes:[`about` ]
         contentTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [`about`],
       },
     },
 ```
