@@ -2,8 +2,30 @@ import React from "react"
 import PropTypes from "prop-types"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
-const Blog = () => {
-  return <h2>blog component</h2>
+import {
+  BlogCard,
+  BlogContent,
+  CategoryWrapper,
+  Category,
+} from "../elements/BlogElements"
+
+// Component for the blog articles
+const Blog = ({ id, title, image, date, category, slug, description }) => {
+  return (
+    <Link to={`/blogs/${slug}`} key={id} style={{ color: "black" }}>
+      <BlogCard>
+        <Image fluid={image.childImageSharp.fluid} />
+        <BlogContent>
+          <h4>{title}</h4>
+          <p>{description}</p>
+          <CategoryWrapper>
+            <Category>{category}</Category>
+            <p>{date}</p>
+          </CategoryWrapper>
+        </BlogContent>
+      </BlogCard>
+    </Link>
+  )
 }
 
 Blog.propTypes = {}

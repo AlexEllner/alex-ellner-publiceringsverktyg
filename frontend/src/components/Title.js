@@ -1,12 +1,9 @@
 import React from "react"
+import { H2 } from "../elements/TitleElements"
 
+// Simple reusable title component
 const Title = ({ title }) => {
-  return (
-    <div className="section-title">
-      <h2>{title || "Default title"}</h2>
-      <div className="underline"></div>
-    </div>
-  )
+  return <H2>{title}</H2>
 }
 
 export default Title

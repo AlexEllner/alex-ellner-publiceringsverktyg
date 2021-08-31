@@ -1,14 +1,15 @@
 /*
-=============== 
-Fonts
-===============
+~~~~~~~~~~~~~~~~~ 
+FONTS
+~~~~~~~~~~~~~~~~~
 */
+
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 
 /*
-=============== 
-Variables
-===============
+~~~~~~~~~~~~~~~~~ 
+VARIABLES
+~~~~~~~~~~~~~~~~~
 */
 
 :root {
@@ -26,14 +27,14 @@ Variables
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-1: hsl(219, 55%, 36%);
+  --clr-grey-3: hsl(219, 30%, 30%);
+  --clr-grey-4: hsl(219, 21%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-5: hsl(220, 22%, 49%);
+  --clr-grey-8: hsl(220, 31%, 80%);
+  --clr-grey-9: hsl(222, 33%, 89%);
+  --clr-grey-10: hsl(220, 36%, 96%);
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -48,10 +49,11 @@ Variables
   --max-width: 1170px;
   --fixed-width: 700px;
 }
+
 /*
-=============== 
-Global Styles
-===============
+~~~~~~~~~~~~~~~~~ 
+GLOBAL STYLES
+~~~~~~~~~~~~~~~~~
 */
 
 *,
@@ -125,8 +127,8 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
+/* global classes */
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -154,6 +156,7 @@ p {
   margin: 0 auto;
   margin-top: 3rem;
 }
+
 /* section */
 .section {
   padding: 5rem 0;
@@ -169,6 +172,7 @@ p {
     width: 95vw;
   }
 }
+
 /* added during recording */
 .underline {
   width: 5rem;
@@ -185,7 +189,6 @@ p {
 .bg-grey {
   background: var(--clr-grey-10);
 }
-/* page links */
 
 /* social links */
 .social-links {
@@ -202,10 +205,11 @@ p {
 .social-link:hover {
   color: var(--clr-primary-5);
 }
+
 /*
-=============== 
-Navbar
-===============
+~~~~~~~~~~~~~~~~~ 
+NAVBAR
+~~~~~~~~~~~~~~~~~
 */
 
 .navbar {
@@ -281,11 +285,13 @@ Navbar
     background: transparent;
   }
 }
+
 /*
-=============== 
-Sidebar
-===============
+~~~~~~~~~~~~~~~~~ 
+SIDEBAR
+~~~~~~~~~~~~~~~~~
 */
+
 .sidebar {
   background: var(--clr-grey-10);
   position: fixed;
@@ -337,11 +343,13 @@ Sidebar
     transform: translateX(-100%);
   }
 }
+
 /*
-=============== 
-Sidebar Animation
-===============
+~~~~~~~~~~~~~~~~~ 
+SIDEBAR ANIMATION
+~~~~~~~~~~~~~~~~~
 */
+
 .sidebar-links li {
   animation: slideRight 0.5s ease-in-out 0.3s forwards;
 }
@@ -401,10 +409,11 @@ Sidebar Animation
 }
 
 /*
-=============== 
-Hero
-===============
+~~~~~~~~~~~~~~~~~ 
+HERO
+~~~~~~~~~~~~~~~~~
 */
+
 /* underline added to globals */
 .hero {
   margin-top: -5rem;
@@ -482,10 +491,11 @@ Hero
 }
 
 /*
-=============== 
-Services
-===============
+~~~~~~~~~~~~~~~~~ 
+SERVICES
+~~~~~~~~~~~~~~~~~
 */
+
 .service {
   background: var(--clr-white);
   padding: 3rem 1.5rem;
@@ -535,9 +545,9 @@ Services
 }
 
 /*
-=============== 
-Jobs
-===============
+~~~~~~~~~~~~~~~~~ 
+JOBS
+~~~~~~~~~~~~~~~~~
 */
 
 .jobs-center {
@@ -572,7 +582,7 @@ Jobs
   box-shadow: 0 2px var(--clr-primary-5);
 }
 .job-info {
-  /* min-height: 420px; */
+  min-height: 420px;
 }
 .job-info h3 {
   font-weight: 400;
@@ -625,10 +635,11 @@ Jobs
 }
 
 /*
-=============== 
-Projects
-===============
+~~~~~~~~~~~~~~~~~ 
+PROJECTS
+~~~~~~~~~~~~~~~~~
 */
+
 .projects {
   background: var(--clr-grey-10);
 }
@@ -747,10 +758,11 @@ Projects
 }
 
 /*
-=============== 
-Blog
-===============
+~~~~~~~~~~~~~~~~~ 
+BLOG
+~~~~~~~~~~~~~~~~~
 */
+
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -822,10 +834,11 @@ Blog
 }
 
 /*
-===============
-Footer
-===============
+~~~~~~~~~~~~~~~~~
+FOOTER
+~~~~~~~~~~~~~~~~~
 */
+
 .footer {
   height: 9rem;
   background: #222;
@@ -851,11 +864,13 @@ Footer
 .footer .social-link:hover {
   color: var(--clr-primary-5);
 }
+
 /*
-===============
-Pages
-===============
+~~~~~~~~~~~~~~~~~
+PAGES
+~~~~~~~~~~~~~~~~~
 */
+
 .blog-template,
 .projects-page,
 .blog-page,
@@ -876,19 +891,23 @@ Pages
   color: var(--clr-primary-1);
   margin-bottom: 2rem;
 }
+
 /*
-===============
-Blog Page
-===============
+~~~~~~~~~~~~~~~~~
+BLOG PAGE
+~~~~~~~~~~~~~~~~~
 */
+
 .blog-page .blog {
   background: var(--clr-white);
 }
+
 /*
-===============
-About Page
-===============
+~~~~~~~~~~~~~~~~~
+ABOUT PAGE
+~~~~~~~~~~~~~~~~~
 */
+
 .about-page {
   padding: 7rem 0;
 }
@@ -940,11 +959,13 @@ About Page
     grid-column: 6 / -1;
   }
 }
+
 /*
-===============
-Contact Page
-===============
+~~~~~~~~~~~~~~~~~
+CONTACT PAGE
+~~~~~~~~~~~~~~~~~
 */
+
 .contact-page {
   display: grid;
   place-items: center;
@@ -995,11 +1016,13 @@ Contact Page
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
 /*
-===============
-Blog Template
-===============
+~~~~~~~~~~~~~~~~~
+BLOG TEMPLATE
+~~~~~~~~~~~~~~~~~
 */
+
 .blog-template {
   padding: 5rem 0;
 }

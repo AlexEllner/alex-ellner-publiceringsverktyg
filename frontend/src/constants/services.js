@@ -1,22 +1,29 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaJs } from "react-icons/fa"
+import { DiVisualstudio } from "react-icons/di"
+import { RiCodeSSlashLine } from "react-icons/ri"
+
 export default [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: (
+      <RiCodeSSlashLine
+        style={{ fontSize: "2rem", color: "yellow", backgroundColor: "black" }}
+      />
+    ),
+    title: "Webbutveckling",
+    text: `Jag designar hemsidor och applikationer.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <DiVisualstudio style={{ fontSize: "2rem", color: "purple" }} />,
+    title: "Backend",
+    text: `Jag bygger backend-applikationer i .NET och Strapi.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaJs style={{ fontSize: "2rem", color: "#41B883" }} />,
+    title: "Frontend",
+    text: `Jag bygger frontend-applikationer i Vue och Gatsby.`,
   },
 ]
